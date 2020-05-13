@@ -1,0 +1,90 @@
+#sidenav1 {
+  width: 0;
+  height: 636px;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #555;
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 14px;
+  position:absolute;
+  overflow-x:hidden;
+}
+
+.closebtn:hover {
+  color: #fff;
+}
+
+a.closebtn {
+  text-decoration: none;
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 39px;
+  margin-left: 50px;
+  color: #818181;
+  display: block;
+  transition: 0.3s;
+}
+
+#mainbox {
+  transition: margin-left .5s;
+  margin-top: -4em;
+  padding: 0px;
+  position:absolute;
+  background-color: white;
+  transition: 0.5s;
+}
+
+.column {
+  float: left;
+  width: 45.3%;
+  margin-bottom: 16px;
+  padding: 0 8px;
+}
+
+.card {
+  margin: 8px;
+}
+
+.about-us{
+  padding: 50px;
+  text-align: center;
+  background-color: #474e5d;
+  color: white;
+}
+
+.container1, h2, p{
+  padding: 0 0px;
+  color: #fff;
+  text-align: center;
+}
+
+.title {
+  color: #000;
+}
+
+.buttn{
+  border: none;
+  display: inline-block;
+  padding: 8px;
+  color: white;
+  background-color: blue;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+}
+.buttn:hover {
+  background-color: #fff;
+  color: blue;
+}
+
+.pic{
+  height:13em;
+  width:100%;
+}
+a:link{
+  text-decoration: none;
+}
