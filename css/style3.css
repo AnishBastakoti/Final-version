@@ -94,6 +94,7 @@ section p{
 }
 dialog:hover{
   background-color: #ddd;
+  text-decoration: underline;
 }
 .foodbox{
   float: left;
