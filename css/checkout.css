@@ -69,17 +69,17 @@ label {
 }
 
 a.button{
-  width:42%;
-  height: 2em;
+  width:72%;
   background-color: darkcyan;
   color: #000;
   border: 2px solid black;
-  border-radius: 12px;
-  padding: 11px 0 0 0;
-  margin: 2em 2em 2em 7em;
+  border-radius: 8px;
+  padding: 7px 7px 9px 9px;
+  margin: 4em 0 0 -17.4em;
   cursor: pointer;
   position:absolute;
   text-align: center;
+  display: inline-block;
 }
 input.check-box{
   margin: 0em 6em 0em 9em;
@@ -195,7 +195,6 @@ h2{
   display: none;
   position: absolute;
   bottom: 0;
-  right: 15px;
   border: 3px solid #f1f1f1;
   z-index: 9;
 }
@@ -203,7 +202,7 @@ h2{
 .form-container {
   max-width: 90%;
   padding: 17px;
-  background-color: white;
+  background-color:#555;
 }
 
 .form-container input[type=text], .form-container input[type=password] {
@@ -256,24 +255,30 @@ input[type=text] {
   padding: 11px;
   border: 1px solid #ccc;
   border-radius: 3px;
-  margin-left: 2em}
+  margin-left: 2em
+}
 
 .word{
   margin-bottom: 4px;
   display: block;
   color: #000;
   text-align: center;
-  padding: 17px 17px 16px 9px;
+  padding: 18px 4px 0 4px;
 }
 .btn-cancel{
   position: absolute;
   padding: 7px 7px 9px 9px;
-  width: 6em;
-  margin-left: 26em;
-  margin-top: 3em;
+  width: 78%;
+  margin-left: -21em;
+  margin-top: 9em;
   background: darkcyan;
-  border-radius: 4px;
+  border-radius: 8px;
   color: #000;
   border: 2px solid black;
   cursor: pointer;
+  display: inline-block;
+}
+b{
+  color: cornsilk;
+  font-family: cursive;
 }

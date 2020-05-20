@@ -100,7 +100,6 @@ button{
   text-align: center;
 }
 .review{
-  width:11em;
   height: 8.6em;
   background-color: #333;
   position: relative;
@@ -110,12 +109,12 @@ button{
 }
 
 .sidnav2{
-  height: 84%;
+  height: 94%;
   width: 0;
   position:absolute;
   z-index: 1;
-  top: 7em;
   right: 0;
+  top:49px;
   background-color: #2a9d8f;
   overflow-x: hidden;
   transition: 0.5s;
