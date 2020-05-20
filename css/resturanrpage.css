@@ -109,12 +109,12 @@ button{
 }
 
 .sidnav2{
-  height: 94%;
+  height: 91.9%;
   width: 0;
   position:absolute;
   z-index: 1;
   right: 0;
-  top:49px;
+  top:57px;
   background-color: #2a9d8f;
   overflow-x: hidden;
   transition: 0.5s;

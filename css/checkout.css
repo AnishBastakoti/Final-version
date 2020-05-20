@@ -68,7 +68,7 @@ label {
   color: #000;
 }
 
-a.button{
+.collapse a.button{
   width:72%;
   background-color: darkcyan;
   color: #000;
@@ -265,7 +265,7 @@ input[type=text] {
   text-align: center;
   padding: 18px 4px 0 4px;
 }
-.btn-cancel{
+.collapse .btn-cancel{
   position: absolute;
   padding: 7px 7px 9px 9px;
   width: 78%;

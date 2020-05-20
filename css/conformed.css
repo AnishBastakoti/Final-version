@@ -1,35 +1,30 @@
 @import "smartphone.css";
+@import "https://www.w3schools.com/w3css/4/w3.css";
+.form {
+  display: block;
+  margin-top: 0em;
+}
+.form-box{
+  width: 100%;
+  padding: 17px;
+  height: 100%;
+  background-color: #555;
+}
 dialog{
-  max-height: 23em;
-  max-width: 20em;
-  background-color: darkslategrey;
+  max-height: 13em;
+  max-width: 269px;
+  background-color: #333;
   color: #fff;
-  margin-top: 1em;
+  margin-left: 12px;
   text-align: center;
-  font-size: 36px;
+  font-size: 26px;
+  position: inherit;
 }
-.button1{
-  height: 2em;
-  width: 4em;
-  margin: 37em 0em 0 10em;
-  background-color: blue;
-  color: #fff;
-  border-radius: 10px;
-  position: absolute;
-  padding: 7px 5px 5px 3px;
-  text-align: center;
+.w3-teal{
+  margin: 1em 1em 1em 1em;
+  width: 91%
 }
-.button2{
-  height: 2em;
-  width: 7em;
-  margin: 37em 0em 0 16em;
-  background-color: blue;
-  color: #fff;
-  border-radius: 10px;
-  position: absolute;
-  padding: 7px 5px 5px 3px;
-  text-align: center;
-}
+
 a:link{
   text-decoration: none;
 }

@@ -1,3 +1,4 @@
+@import "https://fonts.googleapis.com/css?family=Sofia";
 .nav{
   background-color: #000;
   overflow: auto;
@@ -35,6 +36,7 @@ h1{
   padding-top: 4px;
   text-align: center;
   font-size: 18px;
+  font-family: Sofia;
 }
  a:link{
   text-decoration: none;
