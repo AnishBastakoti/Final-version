@@ -2,6 +2,14 @@
 @import "smartphone.css";
 @import "nav.css";
 
+#mainbox{
+  background-color: blue;
+  margin-top:-8em;
+}
+.box{
+  height: 100%;
+  overflow: scroll;
+}
 a{
   list-style-type: none;
   overflow: hidden;
@@ -11,51 +19,38 @@ a{
   padding: 0;
 }
 .fa-shopping-cart{
-  position: absolute;
+  position: inherit;
   margin-top: 0.6em;
   margin-left: 8.5em;
 }
 .foodbox1{
   height: 80px;
   width: 129px;
-  margin-top: -1.7em;
-  margin-left: 0.2em;
-  background-color: #333;
-  color: #000;
-  text-align:center;
+  margin-top: 4em;
 }
 .foodbox2{
-  height: 80px;
-  width: 129px;
-  margin-left: 10em;
-  background-color: #333;
-  color: #000;
-  margin-top: -7.3em;
-  text-align: center;
+  margin-left: 8em;
+  margin-top: -5em;
 }
 .ingredient{
-  height: 100px;
-  width: 100%;
-  background-color: #333;
-  color: #000;
+  background-color: black;
   text-align: center;
-  margin-top: -1em;
+  color: floralwhite;
+  margin-top: -6em;
+  font-family: Amaranth;
 }
 .nutrient{
-  height: 86px;
-  width: 100%;
-  background-color: #333;
   color: #000;
   text-align: center;
   margin-top: -1em;
+  font-family: Amaranth;
 }
 .price{
+  background-color:#555;
+  color: cornsilk;
+  text-align: center;
   height: 36px;
   width: 5em;
-  background-color: #333;
-  color: #000;
-  text-align: center;
-  margin-top: -1em;
 }
 input[type="text"]{
   height: 32px;
@@ -70,19 +65,17 @@ input[type="text"]{
   margin-top: 4.7em;
   position: absolute;
 }
-button{
+a.back-button{
   background-color: #000;
-  height: 45px;
-  width: 68px;
   font-size: 12px;
-  border-width: 4px;
   border-radius: 8px;
-  border-color: #fff;
   color:#fff;
-  margin-left: 24em;
-  margin-top: -3.4em;
-  position: absolute;
+  margin-left: 21em;
+  margin-top: -3em;
   cursor: pointer;
+  padding: 9px 22px 9px 22px;
+  position: inherit;
+  display: block;
 }
 .radiobutton{
   padding-left: 19px;
@@ -96,25 +89,25 @@ button{
 .dtabse{
   width: 13em;
   height: 8.6em;
-  background-color: lightgrey;
+  background-color:turquoise;
   text-align: center;
 }
 .review{
   height: 8.6em;
-  background-color: #333;
+  background-color: cornflowerblue;
   position: relative;
   margin-left: 13em;
-  margin-top: -10.5em;
+  margin-top: -10em;
   text-align: center;
 }
 
 .sidnav2{
-  height: 91.9%;
+  height: 100%;
   width: 0;
   position:absolute;
   z-index: 1;
   right: 0;
-  top:57px;
+  top:0px;
   background-color: #2a9d8f;
   overflow-x: hidden;
   transition: 0.5s;
@@ -155,20 +148,31 @@ button{
   border-radius: 8px;
   padding: 8px 5px 9px 8px;
 }
-p{
-  color:#fff;
-  margin-top: 2em;
-}
- span{
+ .bton{
  cursor: pointer;
  text-align: center;
  color: #fff;
- margin-left: 7em;
+ margin-left: 6em;
  margin-top: -2.2em;
- position: absolute;
  background-color: #555;
  display: block;
  border-radius: 8px;
  width:34%;
  padding: 8px 5px 9px 8px;
+}
+.photo{
+  height: 101px;
+  width: 166px;
+  position: inherit;
+  background-repeat: no-repeat;
+}
+table{
+  width: 100%;
+  margin-top:-1em;
+}
+.checked{
+  color: orange;
+}
+.review span{
+  display: contents;
 }

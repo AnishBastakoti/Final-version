@@ -11,7 +11,7 @@
 <body>
   <div class="smartphone">
     <a href="mainpage.html"><h1>Foodmandu</h1></a>
-    <a href="userinfo.html" i class="fas fa-user-circle" style="font-size:33px"></i></a>
+    <a href="userinfo.html" class="fas fa-user-circle" style="font-size:33px"></a>
     <div class="box">
       <h3> Your Orders Summary</h3>
       <table>
@@ -49,21 +49,20 @@
     </div>
     <input type="checkbox" value="checked" class="check-box">
     <label style="margin-left:2em;"> Use account address as a delivery option</label>
-  </input>
   <p><strong>OR</strong></p>
-      <button id="myBtn" onclick="openForm()">Pay with Paypal</button>
+      <button id="bton1" onclick="openForm()">Pay with Paypal</button>
 
   <div class="form-popup" id="myForm">
     <form class="form-container">
       <h1 style="color:cornsilk; font-family:cursive;">Login</h1>
 
       <label for="email"><b>Paypal Email</b></label>
-      <input type="text" placeholder="Enter Email" name="email" required>
+      <input id="email" type="text" placeholder="Enter Email" name="email" required>
 
-      <label for="psw"><b>Password</b></label>
-      <input type="password" placeholder="Enter Password" name="psw" required>
+      <label for="password"><b>Password</b></label>
+      <input id="password" type="password" placeholder="Enter Password" name="psw" required>
 
-      <button type="submit" class="btn" onclick=document.location="confirm.html">Login</button>
+      <button type="submit" class="btn" onclick="document.location='confirm.html'">Login</button>
       <button type="button" class="btn cancel" onclick="closeForm()">Close</button>
     </form>
   </div>
@@ -82,7 +81,7 @@
                 <input type="text" name="expyear" placeholder="2022">
                 <label class="word">CVV</label>
                 <input type="text" name="CVV" placeholder="223">
-                <a href="confirm.html" type="submit" class="button">Place Order</a>
+                <a href="confirm.html" class="button">Place Order</a>
                 <button type="button" class="btn-cancel" onclick="closeCredit()">Close</button>
               </div>
           </div>

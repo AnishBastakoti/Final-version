@@ -41,6 +41,6 @@ tr:nth-child(odd){background-color: #fff;
   color: blue;
   font-size: 33px;
   position: absolute;
-  margin: 2em 2em 2em 1em;
+  margin: 0 0 0 1em;
   cursor: pointer;
 }

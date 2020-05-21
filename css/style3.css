@@ -7,22 +7,13 @@ footer{
   position: inherit;
   text-decoration: none;
 }
-span:first-child{
-  cursor: pointer;
-  background-color: #fff;
-  text-decoration: none;
-}
+
 span:nth-child(2){
   cursor: pointer;
   background-color: #fff;
   text-decoration: none;
 }
 span:nth-child(3){
-  cursor: pointer;
-  background-color: #fff;
-  text-decoration: none;
-}
-span:last-child{
   cursor: pointer;
   background-color: #fff;
   text-decoration: none;

@@ -10,10 +10,10 @@
 <body>
   <div class="smartphone">
     <a href="mainpage.html"><h1>Foodmandu</h1></a>
-    <a href="userinfo.html" i class="fas fa-user-circle" style="font-size:33px"></i></a>
+    <a href="userinfo.html" class="fas fa-user-circle" style="font-size:33px"></a>
     <div class= "scrollmenu">
       <div class="dropdown">
-  <a onclick="myFunction()" class="dropbtn"><i class="fa fa-bars"></i></a>
+  <a onclick="myFunction()" class="dropbtn"><span class="fa fa-bars"></span></a>
   <div id="myDropdown" class="dropdown-content">
     <a href="#beef">Beef</a>
     <a href="#Lamb">Lamb</a>
@@ -28,7 +28,7 @@
       <a href="foodbank.html">Subway</a>
       <a href="foodbank.html">Shefood on Cullen</a>
   </div>
-    <i onclick="openNav()"class='fas fa-shopping-cart' style='font-size:36px'></i>
+    <i onclick="openNav()" class='fas fa-shopping-cart' style='font-size:36px'></i>
     <div id="checkout" class="sidnav2">
       <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">Close</a>
       <h2>Order List</h2>
@@ -39,20 +39,20 @@
         <li>1x Large Fries</li>
       </ul>
       <input type="text" placeholder="Promo code">
-      <span><a href="order.html">Checkout</span></a>
+      <a href="order.html"><span>Checkout</span></a>
     </div>
     <h3>Hanuman's Menu</h3>
 
     <input type="text" id="input" placeholder="Search for food names..">
-    <a href="#" i class="fa fa-search"></i><a>
+    <a href="#" class="fa fa-search"></a>
     <div class="box">
       <div class="row" onclick="document.location = 'resturantpage.html'">
         <div class="column">
-            <img src="pictures/Hanuman/prawn.jpg" alt="prawn" class="imge"></img>
+            <img src="pictures/Hanuman/prawn.jpg" alt="prawn" class="imge">
         </div>
         <div class="column1">
           <h4>Prawn Pakoras</h4>
-          <dialog open>Ingredients:batter fried local prawns with mint yoghurt.</dialog>
+          <dialog-polyfill open>Ingredients:batter fried local prawns with mint yoghurt.</dialog-polyfill>
           <br>
           <p><strong>Price:4.99$</strong></p>
         </div>
@@ -60,11 +60,11 @@
 
       <div class="row" onclick="document.location = 'resturantpage.html'">
         <div class="column">
-            <img src="pictures/Hanuman/ButterChicken.jpg" alt="Butter-chicken" class="imge"></img>
+            <img src="pictures/Hanuman/ButterChicken.jpg" alt="Butter-chicken" class="imge">
         </div>
         <div class="column1">
           <h4>Butter Chicken</h4>
-          <dialog open>Ingredients: a hanuman signature - silky cashew & tomato curry infused with cardamom & fenugreek</dialog>
+          <dialog-polyfill open>Ingredients: a hanuman signature - silky cashew & tomato curry infused with cardamom & fenugreek</dialog-polyfill>
           <br>
           <p><strong>Price:4.99$</strong></p>
         </div>
@@ -72,11 +72,11 @@
 
       <div class="row" onclick="document.location = 'resturantpage.html'">
         <div class="column">
-            <img src="pictures/Hanuman/kofta-curry.jpg" alt="kofta curry" class="imge"></img>
+            <img src="pictures/Hanuman/kofta-curry.jpg" alt="kofta curry" class="imge">
         </div>
         <div class="column1">
           <h4>Kofta Curry</h4>
-          <dialog open>Ingredients: homemade dumplings of cheese & potato, rich tomato & cashew sauce & dried fennugreek leaf</dialog>
+          <dialog-polyfill open>Ingredients: homemade dumplings of cheese & potato, rich tomato & cashew sauce & dried fennugreek leaf</dialog-polyfill>
           <br>
           <p><strong>Price:4.99$</strong></p>
         </div>
@@ -84,11 +84,11 @@
 
       <div class="row" onclick="document.location = 'resturantpage.html'">
         <div class="column">
-            <img src="pictures/Hanuman/Chicken-Biryani.jpg" alt="Chicken-Biryani" class="imge"></img>
+            <img src="pictures/Hanuman/Chicken-Biryani.jpg" alt="Chicken-Biryani" class="imge">
         </div>
         <div class="column1">
           <h4>chicken Biryani</h4>
-          <dialog open>Ingredients: saffron basmati rice, cashews, raisins, topped with mint & coriander</dialog>
+          <dialog-polyfill open>Ingredients: saffron basmati rice, cashews, raisins, topped with mint & coriander</dialog-polyfill>
           <br>
           <p><strong>Price:4.99$</strong></p>
         </div>
@@ -96,11 +96,11 @@
 
       <div class="row" onclick="document.location = 'resturantpage.html'">
         <div class="column">
-            <img src="pictures/Hanuman/Kang.jpg" alt="Kang Kong Greens" class="imge"></img>
+            <img src="pictures/Hanuman/Kang.jpg" alt="Kang Kong Greens" class="imge">
         </div>
         <div class="column1">
           <h4>Kang Kong Greens</h4>
-          <dialog open>Ingredients: wok tossed water spinach with yellow soy beans, garlic & chilli {vegan}</dialog>
+          <dialog-polyfill open>Ingredients: wok tossed water spinach with yellow soy beans, garlic & chilli {vegan}</dialog-polyfill>
           <br>
           <p><strong>Price:4.99$</strong></p>
         </div>
@@ -108,16 +108,17 @@
 
       <div class="row" onclick="document.location = 'resturantpage.html'">
         <div class="column">
-            <img src="pictures/Hanuman/Chicken-chh.jpeg" alt="Chicken-chh" class="imge"></img>
+            <img src="pictures/Hanuman/Chicken-chh.jpeg" alt="Chicken-chh" class="imge">
         </div>
         <div class="column1">
           <h4>Chicken Chettinad</h4>
-          <dialog open>Ingredients: simmered in fennel & mustard seeds,red onion, curry leaves & dried chilli</dialog>
+          <dialog-polyfill open>Ingredients: simmered in fennel & mustard seeds,red onion, curry leaves & dried chilli</dialog-polyfill>
           <br>
           <p><strong>Price:4.99$</strong></p>
         </div>
       </div>
   </div>
+</div>
 <script src="JS/hamburger-menu.js"></script>
 <script src="JS/checkout.js"></script>
 <script src='https://kit.fontawesome.com/a076d05399.js'></script>

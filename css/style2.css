@@ -58,13 +58,12 @@ input[type="text"], input[type="Password"]{
   margin-left: -2em;
 }
 a.button{
-  padding: 12px 46px;
+  padding: 12px 120px;
   color:#fff;
   background-color: #536DFE;
   border: none;
   border-radius: 8px;
   border-bottom: 2px solid;
-  margin-left: -4em;
 }
 .button:hover{
   cursor: pointer;

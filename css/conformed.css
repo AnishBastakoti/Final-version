@@ -10,15 +10,11 @@
   height: 100%;
   background-color: #555;
 }
-dialog{
-  max-height: 13em;
-  max-width: 269px;
-  background-color: #333;
+dialog-polyfill{
   color: #fff;
-  margin-left: 12px;
+  margin-left: 108px;
   text-align: center;
   font-size: 26px;
-  position: inherit;
 }
 .w3-teal{
   margin: 1em 1em 1em 1em;

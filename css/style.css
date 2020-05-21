@@ -27,6 +27,7 @@
   top: 50%;
   left: 40.5%;
   transform: translate(-40%, -40%);
+  width: fit-content;
 }
 p {
    font-size: 15px;
@@ -43,8 +44,8 @@ h2{
   padding-bottom: 4em;
 }
 
-button{
-  color: #ffffff;
+.button1{
+  color: #fff;
   cursor: pointer;
   background-color: #003359;
   border: 1px solid transparent;
@@ -53,10 +54,7 @@ button{
   border-radius: 10px;
   font-weight: bold;
   font-size: 26px;
-  width:12em;
-}
-button:focus{
-  outline: none;
+  padding: 7px 100px;
 }
 
 button:hover{
@@ -69,9 +67,6 @@ button:hover{
 a:link{
   text-decoration: none;
   color: #6962F7;
-}
-a:visited{
-  color:#6962F7;
 }
 p:last-child{
   color: blue;

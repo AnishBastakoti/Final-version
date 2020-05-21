@@ -5,6 +5,7 @@
 h3{
   text-align: center;
   color:green;
+  margin-top: -3em;
 }
 
 .box{
@@ -80,6 +81,7 @@ dialog{
   margin-top: 0em;
   color:#000;
   position:inherit;
+  text-align: center;
 }
 strong{
   color:indigo;

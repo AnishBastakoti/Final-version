@@ -10,7 +10,7 @@
 <body>
   <div class="smartphone">
     <a href="mainpage.html"><h1>Foodmandu</h1></a>
-    <a href="userinfo.html" i class="fas fa-user-circle" style="font-size:33px"></i></a>
+    <a href="userinfo.html" class="fas fa-user-circle" style="font-size:33px"></a>
     <div class= "scrollmenu">
       <div class="dropdown">
   <a onclick="myFunction()" class="dropbtn"><i class="fa fa-bars"></i></a>
@@ -28,7 +28,7 @@
       <a href="foodbank.html">Subway</a>
       <a href="foodbank.html">Shefood on Cullen</a>
   </div>
-    <i onclick="openNav()"class='fas fa-shopping-cart' style='font-size:36px'></i>
+    <i onclick="openNav()" class='fas fa-shopping-cart' style='font-size:36px'></i>
     <div id="checkout" class="sidnav2">
       <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">Close</a>
       <h2>Order List</h2>
@@ -39,20 +39,20 @@
         <li>1x Large Fries</li>
       </ul>
       <input type="text" placeholder="Promo code">
-      <span><a href="order.html">Checkout</span></a>
+      <a href="order.html"><span>Checkout</span></a>
     </div>
     <h3>Chow's Menu</h3>
 
     <input type="text" id="input" placeholder="Search for food names..">
-    <a href="#" i class="fa fa-search"></i><a>
+    <a href="#" class="fa fa-search"></a>
     <div class="box">
       <div class="row" onclick="document.location = 'resturantpage.html'">
         <div class="column">
-            <img src="pictures/food.jpeg" alt="burger" class="imge"></img>
+            <img src="pictures/food.jpeg" alt="burger" class="imge">
         </div>
         <div class="column1">
           <h4>Burger</h4>
-          <dialog open>Description of food and Ingredients over here. Click on this box to order food.</dialog>
+          <dialog-polyfill open>Description of food and Ingredients over here. Click on this box to order food.</dialog-polyfill>
           <br>
           <p><strong>Price:4.99$</strong></p>
         </div>
@@ -60,11 +60,11 @@
 
       <div class="row" onclick="document.location = 'resturantpage.html'">
         <div class="column">
-            <img src="pictures/food1.jpeg" alt="hotdog" class="imge"></img>
+            <img src="pictures/food1.jpeg" alt="hotdog" class="imge">
         </div>
         <div class="column1">
           <h4>Hotdog</h4>
-          <dialog open>Description of food and Ingredients over here. Click on this box to order food.</dialog>
+          <dialog-polyfill open>Description of food and Ingredients over here. Click on this box to order food.</dialog-polyfill>
           <br>
           <p><strong>Price:4.99$</strong></p>
         </div>
@@ -72,11 +72,11 @@
 
       <div class="row" onclick="document.location = 'resturantpage.html'">
         <div class="column">
-            <img src="pictures/food2.jpeg" alt="sandwich" class="imge"></img>
+            <img src="pictures/food2.jpeg" alt="sandwich" class="imge">
         </div>
         <div class="column1">
           <h4>Sandwich</h4>
-          <dialog open>Description of food and Ingredients over here. Click on this box to order food.</dialog>
+          <dialog-polyfill open>Description of food and Ingredients over here. Click on this box to order food.</dialog-polyfill>
           <br>
           <p><strong>Price:4.99$</strong></p>
         </div>
@@ -84,11 +84,11 @@
 
       <div class="row" onclick="document.location = 'resturantpage.html'">
         <div class="column">
-            <img src="pictures/food3.jpeg" alt="Shusi" class="imge"></img>
+            <img src="pictures/food3.jpeg" alt="Shusi" class="imge">
         </div>
         <div class="column1">
           <h4>Shusi</h4>
-          <dialog open>Description of food and Ingredients over here. Click on this box to order food.</dialog>
+          <dialog-polyfill open>Description of food and Ingredients over here. Click on this box to order food.</dialog-polyfill>
           <br>
           <p><strong>Price:4.99$</strong></p>
         </div>
@@ -96,11 +96,11 @@
 
       <div class="row" onclick="document.location = 'resturantpage.html'">
         <div class="column">
-            <img src="pictures/food4.jpg" alt="Cake" class="imge"></img>
+            <img src="pictures/food4.jpg" alt="Cake" class="imge">
         </div>
         <div class="column1">
           <h4>Cake</h4>
-          <dialog open>Description of food and Ingredients over here. Click on this box to order food.</dialog>
+          <dialog-polyfill open>Description of food and Ingredients over here. Click on this box to order food.</dialog-polyfill>
           <br>
           <p><strong>Price:4.99$</strong></p>
         </div>
@@ -108,16 +108,17 @@
 
       <div class="row" onclick="document.location = 'resturantpage.html'">
         <div class="column">
-            <img src="pictures/food6.jpg" alt="Shavale" class="imge"></img>
+            <img src="pictures/food6.jpg" alt="Shavale" class="imge">
         </div>
         <div class="column1">
           <h4>Shavale</h4>
-          <dialog open>Description of food and Ingredients over here. Click on this box to order food.</dialog>
+          <dialog-polyfill open>Description of food and Ingredients over here. Click on this box to order food.</dialog-polyfill>
           <br>
           <p><strong>Price:4.99$</strong></p>
         </div>
       </div>
   </div>
+</div>
 <script src="JS/hamburger-menu.js"></script>
 <script src="JS/checkout.js"></script>
 <script src='https://kit.fontawesome.com/a076d05399.js'></script>
