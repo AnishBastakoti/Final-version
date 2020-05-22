@@ -2,21 +2,10 @@
 @import "nav.css";
 footer{
   margin-top: -2em;
-  height: 11%;
-  margin-left: 4.9em;
+  margin-left: 4.4em;
   position: inherit;
   text-decoration: none;
-}
-
-span:nth-child(2){
-  cursor: pointer;
-  background-color: #fff;
-  text-decoration: none;
-}
-span:nth-child(3){
-  cursor: pointer;
-  background-color: #fff;
-  text-decoration: none;
+  background-color: azure;
 }
 .container {
   position: relative;
@@ -52,17 +41,11 @@ a.button{
   border-radius: 8px;
   border: 4px solid;
   margin-left: 3em;
-  margin-top: -12em;
+  margin-top: -33em;
   position: absolute;
   transition: 0.5s;
   display: inline-block;
 }
-a.button:hover{
-  background-color: #fff;
-  color: #536DFE;
-  border-color: #536DFE;
-}
-
 .fa-user-circle{
   position: absolute;
   margin-top: -1.3em;
@@ -75,13 +58,16 @@ section p{
   font-size: 1rem;
   letter-spacing: 1px;
 }
- dialog{
+ section dialog-polyfill{
   position: absolute;
   color:blue;
-  margin-top:-33em;
+  margin:-12em 6em;
   cursor: pointer;
+  background-color: blanchedalmond;
+  padding: 7px 4px 7px 10px;
+  border: 2px black solid;
 }
-dialog:hover{
+section dialog-polyfill:hover{
   background-color: #ddd;
   text-decoration: underline;
 }

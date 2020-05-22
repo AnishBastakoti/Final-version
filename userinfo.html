@@ -14,7 +14,7 @@
     <i class="fas fa-user-circle" style="font-size:33px"></i>
     <div class= "scrollmenu">
       <div class="dropdown">
-  <a onclick="myFunction()" class="dropbtn"><i class="fa fa-bars"></i></a>
+  <a onclick="myFunction()" class="dropbtn"><span class="fa fa-bars"></span></a>
   <div id="myDropdown" class="dropdown-content">
     <a href="#beef">Beef</a>
     <a href="#Lamb">Lamb</a>
@@ -63,11 +63,11 @@
         <br>
         <label style="text-align:center; color:#000"><strong>Accepted Cards</strong></label>
             <div class="icon-container">
-              <i class="fa" style="font-size:48px;color:blue">&#xf1ed;</i>
-              <i class="fa fa-cc-visa" style="font-size:48px;color:navy;"></i>
-              <i class="fa fa-cc-amex" style="font-size:48px;color:red"></i>
-              <i class="fa fa-cc-mastercard" style="font-size:48px;color:black;"></i>
-              <i class="fa fa-cc-jcb" style="font-size:48px;color:red"></i>
+              <img src="https://img.icons8.com/color/48/000000/paypal.png" alt="paypal"/>
+              <img src="https://img.icons8.com/color/48/000000/visa.png" alt="visa-card"/>
+              <img src="https://img.icons8.com/color/48/000000/amex.png" alt="american-express"/>
+              <img src="https://img.icons8.com/color/48/000000/mastercard.png" alt="masterd-card"/>
+              <img src="https://img.icons8.com/color/48/000000/jcb.png" alt="jcb-card"/>
             </div>
             <p><strong>You can update your card details below:-</strong></p>
             <label class="word">Name on the Card</label>
@@ -88,10 +88,10 @@
                 <input type="text" name="CVV" placeholder="223">
               </div>
             </div>
-            <button>Update</button>
+            <a href="#" class="update-button">Update</a>
           </div>
         </div>
-    <button class="btn" onclick="openNav()">credit card info</button>
+    <button class="info-btn" onclick="openNav()">credit card info</button>
     <div class="botnav">
       <a href="#" class="active"> Today</a>
       <a onclick="document.getElementById('nuti').style.display='block'"> Yesterday</a>

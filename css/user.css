@@ -14,11 +14,14 @@
   position: absolute;
   height: 29%;
 }
-.btn{
-  background-color:#333;
-  color:#fff;
-  margin-left: 9em;
-  margin-top: 1em;
+.info-btn{
+  background-color: #333;
+  color: #fff;
+  display: block;
+  padding: 7px 54px;
+  border-radius: 11px;
+  margin: 21px 63px;
+  cursor: pointer;
 }
 
 .botnav {
@@ -48,7 +51,7 @@
   border: 8px;
   background-color: green;
   width:50%;
-  height: 35.7%;
+  height: 27.7%;
   padding: 6px;
   position: absolute;
   overflow: scroll;
@@ -62,7 +65,7 @@ h5{
   border: 8px;
   background-color: #333;
   width:44%;
-  height: 35.8%;
+  height: 27.8%;
   margin-top: 0;
   margin-left: 11.9em;
   padding: 6px;
@@ -149,15 +152,15 @@ tr:nth-child(odd){background-color: lightgreen;
   margin-left: 11em;
   margin-top: -3.8em;
 }
-button{
-  width:50%;
-  height: 3em;
+a.update-button{
   background-color: red;
   color: #000;
   border: 2px solid black;
   border-radius: 12px;
-  padding: 4px 4px 4px 4px;
-  margin: 2em 2em 2em 7em;
+  padding: 7px 108px;
+  margin: 1em 3em;
+  display: block;
+  text-align: center;
 }
 button:hover{
   background-color: #000;
