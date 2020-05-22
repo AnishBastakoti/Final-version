@@ -1,0 +1,123 @@
+<!Doctype html>
+<html Lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Foodmandu App</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="css/resturantpage2.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel='icon' href="pictures/icon.png" type="image/x-icon">
+</head>
+<body>
+  <div class="smartphone">
+    <div class="box">
+    <a href="mainpage.html"><h1>Foodmandu</h1></a>
+    <a href="userinfo.html" class="fas fa-user-circle" style="font-size:33px"></a>
+    <div class= "scrollmenu">
+      <div class="dropdown">
+  <a onclick="myFunction()" class="dropbtn"><span class="fa fa-bars"></span></a>
+  <div id="myDropdown" class="dropdown-content">
+    <a href="#beef">Beef</a>
+    <a href="#Lamb">Lamb</a>
+    <a href="#Vegan">Vegan</a>
+  </div>
+  </div>
+      <a href="Nirvana.html">Nirvana</a>
+      <a href="Hanuman.html">Hanuman</a>
+      <a href="The-oak.html">The OAK</a>
+      <a href="Chow.html">Chow</a>
+      <a href="foodbank.html">Moorish Cafe</a>
+      <a href="foodbank.html">Subway</a>
+      <a href="foodbank.html">Shefood on Cullen</a>
+  </div>
+    <i onclick="openNav()" class='fas fa-shopping-cart' style='font-size:36px'></i>
+    <div id="mainbox">
+      <div class="foodbox1">
+      <img class="photo" src="pictures/Nirvana/prawn-toast.png" alt="honey-chicken">
+    </div>
+    <div class="foodbox2">
+      <img class="photo" src="pictures/Nirvana/prawn_toast.png" alt="honey-chicken">
+    </div>
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="blue" fill-opacity="1" d="M0,224L30,213.3C60,203,120,181,180,176C240,171,300,181,360,197.3C420,213,480,235,540,208C600,181,660,107,720,74.7C780,43,840,53,900,74.7C960,96,1020,128,1080,144C1140,160,1200,160,1260,181.3C1320,203,1380,245,1410,266.7L1440,288L1440,0L1410,0C1380,0,1320,0,1260,0C1200,0,1140,0,1080,0C1020,0,960,0,900,0C840,0,780,0,720,0C660,0,600,0,540,0C480,0,420,0,360,0C300,0,240,0,180,0C120,0,60,0,30,0L0,0Z"></path></svg>
+  </div>
+    <div class="ingredient">
+      <h3> Ingredients</h3>
+        <p> raw prawns, egg white, spring onions (scallions),and white pepper to a mini food processor and blitz to a paste.</p>
+    </div>
+    <div class="nutrient">
+      <h3>Food Nutrient Value</h3>
+      <table>
+        <tr>
+        <th>Nutrients</th>
+        <th>Value</th>
+        <th>Nutrients</th>
+        <th>Value</th>
+        </tr>
+        <tr>
+          <td>Calories</td>
+          <td>2</td>
+          <td>Fat</td>
+          <td>10$</td>
+        </tr>
+        <tr>
+          <td>Vitamis</td>
+          <td>10</td>
+          <td>Protien</td>
+          <td>10$</td>
+        </tr>
+        <tr>
+          <td>Glucose</td>
+          <td>1</td>
+          <td>Minerals</td>
+          <td>10$</td>
+        </tr>
+      </table>
+    </div>
+    <div class="price">
+      <p> Price</p>
+    </div>
+    <a href="foodbank.html" class="back-button">Back</a>
+    <div id="checkout" class="sidnav2">
+      <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">Close</a>
+      <h2>Order List</h2>
+      <ul>
+        <li>2x Mac & Cheese</li>
+        <li>10x Buffalo Wings</li>
+        <li>1x Diet Coke 1.2L</li>
+        <li>1x Large Fries</li>
+      </ul>
+      <input type="text" placeholder="Promo code">
+      <a href="order.html"><span>Checkout</span></a>
+    </div>
+      <a class="bton" onclick="openNav()"> Order Food</a>
+      <div class="radio-position">
+      <label class="radiobutton"> Take away</label>
+      <input type="radio" checked="checked" name="radio">
+
+      <label class="radiobutton"> Dine In</label>
+      <input type="radio" checked="checked" name="radio">
+
+      <label class="radiobutton"> Delivery</label>
+      <input type="radio" checked="checked" name="radio">
+      </div>
+      <div class="dtabse">
+        <h4> Record this in your Data Base</h4>
+        <span>Yes: <input type="checkbox" id="myCheckbox"  onclick="myFunction1()"></span>
+        <a id="text1" style="display:none">This is not recorded in your database at the movement to record click the box!</a>
+        </div>
+        <div class="review">
+          <h4>Food Rating</h4>
+          <span class="fa fa-star checked"></span>
+          <span class="fa fa-star checked"></span>
+          <span class="fa fa-star checked"></span>
+          <span class="fa fa-star"></span>
+          <span class="fa fa-star"></span>
+        </div>
+    </div>
+</div>
+<script src="JS/hamburger-menu.js"></script>
+<script src="JS/checkout.js"></script>
+<script src="JS/checkbox.js"></script>
+<script src='https://kit.fontawesome.com/a076d05399.js'></script>
+</body>
+</html>

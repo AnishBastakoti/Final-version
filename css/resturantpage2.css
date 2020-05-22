@@ -1,0 +1,178 @@
+@import "style3.css";
+@import "smartphone.css";
+@import "nav.css";
+
+#mainbox{
+  background-color: blue;
+  margin-top:-8em;
+}
+.box{
+  height: 100%;
+  overflow: scroll;
+}
+a{
+  list-style-type: none;
+  overflow: hidden;
+  text-decoration: none;
+  color: #000;
+  text-align: center;
+  padding: 0;
+}
+.fa-shopping-cart{
+  position: inherit;
+  margin-top: 0.6em;
+  margin-left: 8.5em;
+}
+.foodbox1{
+  height: 80px;
+  width: 129px;
+  margin-top: 4em;
+}
+.foodbox2{
+  margin-left: 8em;
+  margin-top: -5em;
+}
+.ingredient{
+  background-color: black;
+  text-align: center;
+  color: floralwhite;
+  margin-top: -6em;
+  font-family: Amaranth;
+}
+.nutrient{
+  color: #000;
+  text-align: center;
+  margin-top: -1em;
+  font-family: Amaranth;
+}
+.price{
+  background-color:#555;
+  color: cornsilk;
+  text-align: center;
+  height: 36px;
+  width: 5em;
+}
+input[type="text"]{
+  height: 32px;
+  width: 124px;
+  font-size: 15px;
+  border-radius: 8px;
+  border-color: #000;
+  margin-bottom: 20px;
+  background-color: #fff;
+  padding-left: 15px;
+  margin-left: 3em;
+  margin-top: 4.7em;
+  position: absolute;
+}
+a.back-button{
+  background-color: #000;
+  font-size: 12px;
+  border-radius: 8px;
+  color:#fff;
+  margin-left: 21em;
+  margin-top: -3em;
+  cursor: pointer;
+  padding: 9px 22px 9px 22px;
+  position: inherit;
+  display: block;
+}
+.radiobutton{
+  padding-left: 19px;
+  cursor: pointer;
+  font-size: 18px;
+  user-select: none;
+}
+.radio-position{
+  margin-top: 1em;
+}
+.dtabse{
+  width: 13em;
+  height: 8.6em;
+  background-color:turquoise;
+  text-align: center;
+}
+.review{
+  height: 8.6em;
+  background-color: cornflowerblue;
+  position: relative;
+  margin-left: 13em;
+  margin-top: -10em;
+  text-align: center;
+}
+
+.sidnav2{
+  height: 100%;
+  width: 0;
+  position:absolute;
+  z-index: 1;
+  right: 0;
+  top:0px;
+  background-color: #2a9d8f;
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 0px;
+}
+.sidenav2 a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #818181;
+  display: block;
+  transition: 0.3s;
+}
+
+ .closebtn:hover {
+  color:#fff;
+}
+
+ .closebtn {
+  position: absolute;
+  top: 0px;
+  right: 14px;
+  font-size: 19px;
+  margin-left: 50px;
+  display: block;
+  color:#fff;
+  padding: 6px 6px 6px 6px;
+  text-decoration: none;
+}
+ #checkout span{
+  cursor: pointer;
+  color: #000;
+  margin-left: 6em;
+  margin-top: 10.8em;
+  position: absolute;
+  background-color: green;
+  display: block;
+  border-radius: 8px;
+  padding: 8px 5px 9px 8px;
+}
+ .bton{
+ cursor: pointer;
+ text-align: center;
+ color: #fff;
+ margin-left: 6em;
+ margin-top: -2.2em;
+ background-color: #555;
+ display: block;
+ border-radius: 8px;
+ width:34%;
+ padding: 8px 5px 9px 8px;
+}
+.photo{
+  height: 97px;
+  position: inherit;
+  background-repeat: no-repeat;
+  inline-size: auto;
+}
+table{
+  width: 100%;
+  margin-top:-1em;
+}
+.checked{
+  color: orange;
+}
+.review span{
+  display: contents;
+}
