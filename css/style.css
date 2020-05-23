@@ -8,7 +8,6 @@
   border-bottom-width: 60px;
   border-radius: 36px;
 }
-
 .image1{
   -o-object-fit: cover;
   object-fit: cover;
@@ -16,6 +15,10 @@
   opacity: 0.2;
   background-repeat: no-repeat;
   width: 100%;
+}
+#myDiv {
+  display:none;
+  text-align: center;
 }
 .container {
   position: relative;
@@ -27,7 +30,7 @@
   top: 50%;
   left: 40.5%;
   transform: translate(-40%, -40%);
-  width: fit-content;
+  width: max-content;
 }
 p {
    font-size: 15px;

@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+.pace {
+  pointer-events: none;
+  user-select: none;
+  z-index: 2000;
+  position: fixed;
+  margin: auto;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  width: 400px;
+  border: 0px;
+  height: 10px;
+  overflow: hidden;
+  background:#1b1b1b;
+  text-align: center;
+}
+
+.pace .pace-progress {
+  box-sizing: border-box;
+  transform: translate3d(0, 0, 0);
+  max-width: 400px;
+  position: fixed;
+  z-index: 2000;
+  display: block;
+  position: absolute;
+  top: 0;
+  right: 100%;
+  height: 100%;
+  width: 100%;
+  background: red;
+  text-align: center;
+}
+
+.pace.pace-inactive {
+  display:;
+}
+.pace1{
+	animation-name: example;
+  	animation-duration: 2s;
+    width:320px;
+    margin: 12em 5em;
+    text-align: center;
+}
+.pace1 span:first-child{
+	color:red;
+    font-family: Cursive;
+    font-size:40px;
+}
+.pace1 span:nth-child(2){
+	color:blue;
+    font-family: Cursive;
+    font-size:40px;
+}
+.pace1 span:nth-child(3){
+	color:yellow;
+    font-family: Cursive;
+    font-size:40px;
+}
+.pace1 span:nth-child(4){
+	color:red;
+    font-family: Cursive;
+    font-size:40px;
+}
+.pace1 span:nth-child(5){
+	color:blue;
+    font-family: Cursive;
+    font-size:40px;
+}
+.pace1 span:nth-child(6){
+	color:yellow;
+    font-family: Cursive;
+    font-size:40px;
+}
+.pace1 span:nth-child(7){
+	color:red;
+    font-family: Cursive;
+    font-size:40px;
+}
+.pace1 span:nth-child(8){
+	color:blue;
+    font-family: Cursive;
+    font-size:40px;
+}
+.pace1 span:last-child{
+	color:yellow;
+    font-family: Cursive;
+    font-size:40px;
+}
+@keyframes example {
+  from {background-color: black;}
+  to {background-color: #ddd;}
+}
+</style>
+</head>
+<body>
+  <div class="pace1">
+   	 <span>F</span>
+     <span>O</span>
+     <span>O</span>
+     <span>D</span>
+     <span>M</span>
+     <span>A</span>
+     <span>N</span>
+     <span>D</span>
+     <span>U</span>
+   </div>
+   <script src="JS/pace.js"></script>
+   </body>
+   </html>

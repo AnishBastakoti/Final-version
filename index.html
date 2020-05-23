@@ -5,19 +5,43 @@
 <title>Foodmandu App</title>
 <link rel="stylesheet" href="css/style.css">
 <link rel="stylesheet" href="css/style2.css">
+<link rel="stylesheet" href="css/loading-page.css">
 <link rel='icon' href="pictures/icon.png" type="image/x-icon">
 </head>
-<body>
+<body onload="myFunction()" style="margin:0;">
   <div class="smartphone">
-  <div class="container">
-    <img src="pictures/img1.jpg" alt="Vegetable" class="image1">
-    <div class="centered">
-      <h1> Welcome to Foodmandu App</h1>
-      <h2> For Hungry people like you</h2>
-      <a href="login.html" class="button1"> Sign up</a>
-      <a href="Terms-and-conditions.pdf" target="blank" style="margin:4em 0em 0em -18em; position:absolute;"><small>By signing up I agree the terms and condition</small></a>
-      <p onclick="document.getElementById('Main-modal').style.display='block'">Already have an account? Log in</p>
-    </div>
+    <div id="loader">
+      <div class="span-box">
+	     <span>F</span>
+       <span>O</span>
+       <span>O</span>
+       <span>D</span>
+       <span>M</span>
+       <span>A</span>
+       <span>N</span>
+       <span>D</span>
+       <span>U</span>
+     </div>
+	<div id="jamb">
+        <div class="side" id="side1"></div>
+        <div class="side" id="side2"></div>
+        <div class="side" id="side3"></div>
+        <div class="side" id="side4"></div>
+        <div class="crack" id="door">
+          <div id="knob"></div>
+          <div id="porthole"></div>
+		</div>
+	</div>
+</div>
+    <div style="display:none"; id="myDiv" class="container">
+      <img src="pictures/img1.jpg" alt="Vegetable" class="image1">
+      <div class="centered">
+        <h1> Welcome to Foodmandu App</h1>
+        <h2> For Hungry people like you</h2>
+        <a href="login.html" class="button1"> Sign up</a>
+        <a href="Terms-and-conditions.pdf" target="blank" style="margin:4em 0em 0em -18em; position:absolute;"><small>By signing up I agree the terms and condition</small></a>
+        <p onclick="document.getElementById('Main-modal').style.display='block'">Already have an account? Log in</p>
+      </div>
   </div>
 </div>
 <div id="Main-modal" class="modal">
@@ -34,7 +58,9 @@
             <a href="mainpage.html" class="button">Submit</a>
       </div>
   </form>
+</script>
 </div>
 <script src="JS/login.js"></script>
+<script src="JS/loading-page.js"></script>
 </body>
 </html>
