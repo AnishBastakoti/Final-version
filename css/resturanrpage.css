@@ -52,19 +52,7 @@ a{
   height: 36px;
   width: 5em;
 }
-input[type="text"]{
-  height: 32px;
-  width: 124px;
-  font-size: 15px;
-  border-radius: 8px;
-  border-color: #000;
-  margin-bottom: 20px;
-  background-color: #fff;
-  padding-left: 15px;
-  margin-left: 3em;
-  margin-top: 4.7em;
-  position: absolute;
-}
+
 a.back-button{
   background-color: #000;
   font-size: 12px;
@@ -113,15 +101,6 @@ a.back-button{
   transition: 0.5s;
   padding-top: 0px;
 }
-.sidenav2 a {
-  padding: 8px 8px 8px 32px;
-  text-decoration: none;
-  font-size: 25px;
-  color: #818181;
-  display: block;
-  transition: 0.3s;
-}
-
  .closebtn:hover {
   color:#fff;
 }
@@ -140,13 +119,13 @@ a.back-button{
  #checkout span{
   cursor: pointer;
   color: #000;
-  margin-left: 6em;
-  margin-top: 10.8em;
+  margin-left: 3em;
+  margin-top: 4.8em;
   position: absolute;
-  background-color: green;
+  background-color: #ddd;
   display: block;
   border-radius: 8px;
-  padding: 8px 5px 9px 8px;
+  padding: 8px 47px 8px 47px;
 }
  .bton{
  cursor: pointer;
@@ -166,7 +145,7 @@ a.back-button{
   position: inherit;
   background-repeat: no-repeat;
 }
-table{
+.nutrient table{
   width: 100%;
   margin-top:-1em;
 }
@@ -175,4 +154,37 @@ table{
 }
 .review span{
   display: contents;
+}
+.table {
+  font-family: arial, sans-serif;
+  width: 240px;
+  border-collapse:collapse;
+  margin: 3em auto;
+}
+.table tr:nth-child(even){
+  background-color: #ddd;
+}
+.table tr:nth-child(3){
+  background-color: #ddd;
+}
+.table tr:last-child{
+  background-color: #ddd;
+}
+.table td, th {
+  text-align: center;
+  padding: 8px 0;
+  width: 0px;
+}
+.table th{
+  color:aliceblue;
+  font-weight: initial;
+}
+.table td:last-child{
+	color:blue;
+  text-decoration: underline;
+  cursor: pointer;
+}
+.table input{
+	width:70%;
+  border:1px #fff solid;
 }

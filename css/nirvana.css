@@ -52,12 +52,12 @@ h3{
   font-size: 11px;
   padding: 7px 43px 5px 11px;
   border: 2px solid #333;
-  margin-bottom: 0px;
-  position: absolute;
-  margin-top: -1em;
+  margin: -1em 0em 0em 3em;
   background-color: blue;
   color:#fff;
   border-radius: 18px;
+  position: absolute;
+  height: 32px;
 }
 
 .fa-search {
@@ -91,4 +91,38 @@ strong{
 p:first-of-type{
   text-decoration: underline;
   color:#000;
+}
+
+.sidenav2, table {
+  font-family: arial, sans-serif;
+  width: 240px;
+  border-collapse:collapse;
+  margin: 3em auto;
+}
+tr:nth-child(even){
+  background-color: #ddd;
+}
+tr:nth-child(3){
+  background-color: #ddd;
+}
+tr:last-child{
+  background-color: #ddd;
+}
+td, th {
+  text-align: center;
+  padding: 8px 0;
+  width: 0px;
+}
+th{
+  color:aliceblue;
+  font-weight: initial;
+}
+td:last-child{
+	color:blue;
+  text-decoration: underline;
+  cursor: pointer;
+}
+input{
+	width:70%;
+  border:1px #fff solid;
 }

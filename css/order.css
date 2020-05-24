@@ -2,14 +2,13 @@
 @import "smartphone.css";
 
 .orderbutton {
-  color: black;
-  margin-top: 6%;
-  margin-left: 33%;
+  margin: -51px 101px;
   color: #fff;
   border: 2px solid black;
   border-radius: 4px;
   background-color: green;
-  padding: 16px
+  padding: 16px;
+  position: absolute;
 }
 .orderbutton:hover {
   background-color: #ddd;
@@ -17,8 +16,9 @@
 }
 .card {
   box-shadow: 0 6px 8px 0 rgba(0.2,0.2,0.2,0.2);
-  padding: 16px 16px;
+  padding: -1px 16px;
   background-color: #ddd;
+  margin: 54px auto;
 }
 
 table {
@@ -31,16 +31,42 @@ th, td {
   padding: 8px;
 }
 
-tr:nth-child(even){background-color: #555;
+tr:nth-child(even){
+  background-color: darkkhaki;
   color: #fff;
 }
-tr:nth-child(odd){background-color: #fff;
+tr:nth-child(odd){
+  background-color: #fff;
 }
+td:last-child{
+  color:blue;
+  text-decoration: underline;
+  cursor: pointer;
+}
+input{
+	width:70%;
+  border:1px #000 solid;
+}
+
 .backbtn{
-  padding: 9px 10px 10px 9px;
   color: blue;
   font-size: 33px;
   position: absolute;
-  margin: 0 0 0 1em;
+  margin: -45px 0 0 286px;
   cursor: pointer;
+}
+
+input[type="text"]{
+  width: 124px;
+  font-size: 15px;
+  border-radius: 8px;
+  border-color: #000;
+  background-color: #fff;
+  padding:6px 15px 6px 15px;
+  margin:6px 108px;
+}
+.card caption{
+  font-weight: bold;
+  background-color: tomato;
+  padding: 12px 0;
 }
