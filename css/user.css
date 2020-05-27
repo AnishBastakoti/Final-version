@@ -77,9 +77,9 @@ h5{
   width: 100%;
   position: absolute;
   z-index: 1;
-  top: 6.3em;
+  top: 71px;
   left: 0;
-  background-color: #ddd;
+  background-color: #f2f2f2;
   border-radius: 3px;
   overflow-y: hidden;
   transition: 0.5s;
@@ -93,7 +93,7 @@ h5{
   top: 1px;
   right: 27px;
   font-size: 43px;
-  color: #fff;
+  color: blueviolet;
 }
 .overlay .closebtn:hover{
   color: #000;
